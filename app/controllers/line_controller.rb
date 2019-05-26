@@ -13,7 +13,7 @@ class LineController < ActionController::API
   def process_event(event)
     reply_token = event["replyToken"]
     return if reply_token.nil?
-    
+    /**/
     text = event["message"] && event["message"]["text"] || event["type"]
     puts ""
     puts "用戶的輸入: #{text}"
