@@ -10,7 +10,7 @@
       "
       return {
         "type": "text",
-        "text": weather_info ,"\n測試一下了唷"
+        "text": weather_info
       }
     end
 
