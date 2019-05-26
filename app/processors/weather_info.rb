@@ -6,8 +6,6 @@
         天氣現象：#{weather[:wx]}
         舒適度：#{weather[:ci]}
         溫度：攝氏 #{weather[:min_t]} ~ #{weather[:max_t]} 度
-        降雨機率：#{weather[:pop]}%
-        降雨機率：#{weather[:pop]}%
       "
       return {
         "type": "text",
